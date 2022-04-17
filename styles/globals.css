@@ -2,8 +2,9 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: rgb(3, 17, 25);
+  color: hsl(0, 0%, 100%);
 }
 
 a {
@@ -13,4 +14,87 @@ a {
 
 * {
   box-sizing: border-box;
+}
+#navBarContainer{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+  padding-right: 15%;
+  padding-top: 1%;
+}
+#headerLogo{
+  width: 100%;
+  height: 50px;
+}
+.headerLink{
+  color: white;
+  padding: 3px;
+  margin: 5px;
+  transition: 0.2s;
+}
+.headerLink:hover{
+  color: rgb(255, 94, 0);
+}
+.borderSorround{
+  color: white;
+  background: rgb(255, 94, 0);
+  border-radius: 10% 25%;
+  padding: 10px;
+  border-radius: 30% 5%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.borderSorround:hover{
+  background: white;
+  color: rgb(255, 94, 0);
+  color: rgb(3, 17, 25);
+}
+#stickyMedia{
+  position: fixed;
+  bottom: 1%;
+  left: 1%;
+}
+#stickyMedia p{
+  font-size: 20px;
+  position: relative;
+  cursor: pointer;
+}
+#stickyMedia p::before{
+  content: url('../public/socialmedialine.svg');
+  position: absolute;
+  right: -50%;
+  bottom: -300%;
+  z-index: -99;
+}
+#homeComponent{
+  display: flex;
+  position: absolute;
+  top: 5%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+#homeComponent section{
+  width: 50%;
+}
+#homeComponent .twoCircles{
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  z-index: -999;
+}
+.headerSectionOne{
+  position: relative;
+  padding-top: 13%;
+  padding-left: 5%;
+}
+#basicDescr{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: green;
+}
+.headerSectionTwo img{
+  width: 100%;
 }
