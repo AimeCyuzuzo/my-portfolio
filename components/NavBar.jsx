@@ -15,6 +15,7 @@ const NavBar = () => {
                 <p><a href="#">Facebook</a></p>
                 <p><a href="#">Instagram</a></p>
                 <p><a href="#">Twitter</a></p>
+                <p><a href="#">Okay</a></p>
             </div>
         </div>
      );
