@@ -25,7 +25,7 @@ export default function Home() {
               </div>
             </section>
             <section className="col-4 section headerSectionTwo pt-5">
-              <a href="https://app.daily.dev/AimeCyuz" target="_blank"><img src="https://api.daily.dev/devcards/b3122187225c4ea7b725e11cb4846b4d.png?r=ksv" width="400" alt="Cyuzuzo Aime's Dev Card"/></a>
+              <a href="https://app.daily.dev/AimeCyuz" target="_blank" rel="noreferrer"><img src="https://api.daily.dev/devcards/b3122187225c4ea7b725e11cb4846b4d.png?r=ksv" width="400" alt="Dev Card of Cyuzuzo Aime"/></a>
             </section>
           </div>
           <div className="container-fluid pt-5">
