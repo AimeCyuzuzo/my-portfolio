@@ -120,12 +120,12 @@ export default function Home() {
             </div>
           </div>
           <div className="my-projects" uk-scrollspy="cls: uk-animation-fade; target: .single-project; delay: 1000; repeat: true">
-            <h2>Here are some of the projects I've been working on:</h2>
+            <h2>Here are some of the projects I&apos;ve been working on:</h2>
             <div className="container-fluid">
               <div className="row p-0 justify-content-around">
                 <div className="col-xl-4 col-lg-4 col-md-5 col-sm-11 col-11 single-project">
                   <div className="container-fluid p-0">
-                    <a href="https://street-bridge-foundation.vercel.app" target="_blank">
+                    <a href="https://street-bridge-foundation.vercel.app" target="_blank" rel="noreferrer">
                       <div className="row p-0">
                         <div className="col-12">
                           <img src="/sample.jpg" width="100%" height="100%" alt="Project Preview" className="project-preview" />
@@ -142,7 +142,7 @@ export default function Home() {
                 </div>
                 <div className="col-xl-4 col-lg-4 col-md-5 col-sm-11 col-11 single-project">
                   <div className="container-fluid p-0">
-                    <a href="https://street-bridge-foundation.vercel.app" target="_blank">
+                    <a href="https://street-bridge-foundation.vercel.app" target="_blank" rel="noreferrer">
                       <div className="row p-0">
                         <div className="col-12">
                           <img src="/sample.jpg" width="100%" height="100%" alt="Project Preview" className="project-preview" />
@@ -159,7 +159,7 @@ export default function Home() {
                 </div>
                 <div className="col-xl-4 col-lg-4 col-md-5 col-sm-11 col-11 single-project">
                   <div className="container-fluid p-0">
-                    <a href="https://ca5-web-piano.netlify.app" target="_blank">
+                    <a href="https://ca5-web-piano.netlify.app" target="_blank" rel="noreferrer">
                       <div className="row p-0">
                         <div className="col-12">
                           <img src="/sample.jpg" width="100%" height="100%" alt="Project Preview" className="project-preview" />
@@ -176,7 +176,7 @@ export default function Home() {
                 </div>
                 <div className="col-xl-4 col-lg-4 col-md-5 col-sm-11 col-11 single-project">
                   <div className="container-fluid p-0">
-                    <a href="https://ca5-web-piano.netlify.app" target="_blank">
+                    <a href="https://ca5-web-piano.netlify.app" target="_blank" rel="noreferrer">
                       <div className="row p-0">
                         <div className="col-12">
                           <img src="/sample.jpg" width="100%" height="100%" alt="Project Preview" className="project-preview" />
