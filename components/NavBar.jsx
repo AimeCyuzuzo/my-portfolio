@@ -19,9 +19,9 @@ const NavBar = () => {
                         <Link href="/contact"><a id="navContactLink" className="borderSorround">Contact Me</a></Link> */}
                     </div>
                     <div id="stickyMedia">
-                        <p><a href="#">Facebook</a></p>
-                        <p><a href="#">Instagram</a></p>
-                        <p><a href="#">Twitter</a></p>
+                        <p><a href="https://web.facebook.com/cyuzuzo.aime.18" target="_blank">Facebook</a></p>
+                        <p><a href="https://www.instagram.com/aimecyuzuzo5/" target="_blank">Instagram</a></p>
+                        <p><a href="https://twitter.com/AimeCyuzuzo1" target="_blank">Twitter</a></p>
                     </div>
                 </div>
             </div>
