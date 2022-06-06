@@ -9,9 +9,9 @@ const NavBar = () => {
     return ( 
         <header>
             <div id="container-fluid">
-                <div className="row justify-content-around p-0">
+                <div className="row justify-content-around p-0 mb-5">
                     <div className="col-1">
-                        <img src="/logo.svg" id="headerLogo" width="70px" height="50px" alt="" />
+                        <img src="/logo.svg" id="headerLogo" alt="My logo" />
                     </div>
                     <div className="col-5">
                         {/* <Link href="/about"><a>About</a></Link>

@@ -22,32 +22,35 @@ const typeWriter = async () =>{
   return (
   
     <div className="container-fluid">
-      <div className="fixed-back">
-  
-        <a href="#" uk-totop uk-scroll>/\</a>
-      </div>
+      
       <div id='homeComponent' className={styles.container}>
         <div className="container-fluid text-white">
           <div className="row justify-content-around">
-            <section className='col-11 section headerSectionOne'>
+            <section className='col-12 section headerSectionOne'>
               {/* <img src="/twocircles.svg" className='twoCircles' alt="" /> */}
-                <div className='basicDescr'>
-                  <p>Hello, I am </p>
-                  <h2>I am Aime Cyuzuzo,</h2>
-                  <h1 id='basicDesc'><span></span> <br /> a web designer and web developer developer.</h1>
-                  {/* <p className="borderSorround">Email Me</p> */}
-                  <p className='text-gray-500' id='descContent'>
-                  I am a web designer and a web developer focusing on using latest tools on market to develop cool-functioning websites. <br /> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo quas totam atque vitae, natus suscipit adipisci reprehenderit, minima at ipsam distinctio ducimus dignissimos blanditiis velit esse a temporibus, cupiditate amet!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, fugiat rerum? Nihil, quod. Sit quas facilis cumque nisi architecto totam id voluptate maiores autem, voluptatum dignissimos maxime odio saepe! Totam?  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ad alias sit nobis suscipit, saepe minus, obcaecati impedit unde deleniti, est ducimus ab autem vero veniam corrupti vitae eligendi. Molestias?
-                  </p>
+                <div className="container-fluid p-0">
+                  <div className="row p-0 justify-content-around">
+                          <div className='basicDescr col-xl-6 col-lg-6 col-md-11 col-sm-11 col-12'>
+                            <p>Hello, I am </p>
+                            <h2>I am Aime Cyuzuzo,</h2>
+                            <p className='text-gray-500' id='descContent'>
+                            I am a web designer and a web developer focusing on using latest tools on market to develop cool-functioning websites.
+                            </p>
+                            
+                            <p className="borderSorround email-me">
+                              <a href="mailto:aimecyuzuzo5@gmail.com" target="_blank" rel="noopener noreferrer">Email me</a>
+                            </p>
 
-                <div>
-                  
+                        </div>
+                        <div className='col-xl-4 col-lg-4 col-md-10 col-sm-11 col-12'>
+                          <a href="https://app.daily.dev/AimeCyuz" target="_blank" rel="noreferrer"><img src="https://api.daily.dev/devcards/b3122187225c4ea7b725e11cb4846b4d.png?r=ksv" width="400" alt="Dev Card of Cyuzuzo Aime"/></a>
+
+                        </div>
+                  </div>
                 </div>
-              </div>
             </section>
           </div>
-          <a href="https://app.daily.dev/AimeCyuz" target="_blank" rel="noreferrer"><img src="https://api.daily.dev/devcards/b3122187225c4ea7b725e11cb4846b4d.png?r=ksv" width="400" alt="Dev Card of Cyuzuzo Aime"/></a>
-
+          
           <div className="container-fluid pt-5">
             <h2 className='underline decoration-wavy'>What I can use...</h2>
             <div className="container-fluid">
@@ -218,7 +221,8 @@ const typeWriter = async () =>{
       </div>
       <div className="email-form-container" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: true">
       <div className="email-form">
-        <h2>Direct contact</h2>
+
+        {/* <h2>Direct contact</h2>
         <small><i>It would be my pleasure to here from you...</i></small>
         <div>
           <div className="names">
@@ -240,7 +244,7 @@ const typeWriter = async () =>{
           <div className="send">
             <Button>Send</Button>
           </div>
-        </div>
+        </div> */}
       </div>
       </div>
       <div>
