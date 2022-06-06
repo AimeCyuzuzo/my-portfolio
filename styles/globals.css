@@ -228,3 +228,84 @@ a{
 #stickyMedia a:hover{
   color: rgb(255, 94, 0) !important;
 }
+.html-div{
+  background: rgb(5, 32, 47);
+  box-shadow: 3px 3px 5px rgb(255, 135, 60);
+  margin: 5% 2%;
+  border-radius: 5% 5%;
+  animation: tailwindDiv 3s linear infinite 1s;
+}
+.html-div .lan-field{
+  background: rgb(255, 135, 60);
+}
+.css-div{
+  background: rgb(5, 32, 47);
+  box-shadow: 3px 3px 5px rgb(42, 145, 255);
+  margin: 5% 2%;
+  border-radius: 5% 5%;
+  animation: tailwindDiv 3s linear infinite 2s;
+}
+.css-div .lan-field{
+  background: rgb(42, 145, 255);
+}
+.js-div{
+  background: rgb(5, 32, 47);
+  box-shadow: 3px 3px 5px rgb(180, 42, 255);
+  margin: 5% 2%;
+  border-radius: 5% 5%;
+  animation: tailwindDiv 3s linear infinite 3s;
+}
+.js-div .lan-field{
+  background: rgb(180, 42, 255);
+}
+.bootstrap-div{
+  background: rgb(5, 32, 47);
+  box-shadow: 3px 3px 5px rgb(42, 255, 216);
+  margin: 5% 2%;
+  border-radius: 5% 5%;
+  animation: tailwindDiv 3s linear infinite 1s;
+}
+.bootstrap-div .lan-field{
+  background: rgb(42, 255, 216);
+}
+.tailwind-div{
+  background: rgb(5, 32, 47);
+  box-shadow: 3px 3px 5px rgb(29, 146, 6);
+  margin: 5% 2%;
+  border-radius: 5% 5%;
+  animation: tailwindDiv 3s linear infinite;
+}
+@keyframes tailwindDiv {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(5%);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+.tailwind-div .lan-field{
+  background: rgb(29, 146, 6);
+}
+.react-div{
+  background: rgb(5, 32, 47);
+  box-shadow: 3px 3px 5px rgb(0, 115, 255);
+  margin: 5% 2%;
+  border-radius: 5% 5%;
+  animation: tailwindDiv 3s linear infinite;
+}
+.react-div .lan-field{
+  background: rgb(0, 115, 255);
+}
+.mui-div{
+  background: rgb(5, 32, 47);
+  box-shadow: 3px 3px 5px rgb(0, 193, 100);
+  margin: 5% 2%;
+  border-radius: 5% 5%;
+  animation: tailwindDiv 3s linear infinite;
+}
+.mui-div .lan-field{
+  background: rgb(0, 193, 100);
+}

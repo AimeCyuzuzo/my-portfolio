@@ -37,8 +37,8 @@ const typeWriter = async () =>{
                             I am a web designer and a web developer focusing on using latest tools on market to develop cool-functioning websites.
                             </p>
                             
-                            <p className="borderSorround email-me">
-                              <a href="mailto:aimecyuzuzo5@gmail.com" target="_blank" rel="noopener noreferrer">Email me</a>
+                            <p>
+                              <a  className="borderSorround email-me" href="mailto:aimecyuzuzo5@gmail.com" target="_blank" rel="noopener noreferrer">Email me</a>
                             </p>
 
                         </div>
@@ -55,7 +55,7 @@ const typeWriter = async () =>{
             <h2 className='underline decoration-wavy'>What I can use...</h2>
             <div className="container-fluid">
               <div className="row p-0 justify-content-around">
-                <div className="col-xl-4 col-lg-4 col-md-5 col-sm-11 col-11 single-usable" uk-scrollspy="cls: uk-animation-slide-right;delay: 0; repeat: true">
+                <div className="col-xl-4 col-lg-4 col-md-5 col-sm-11 col-11 html-div single-usable" uk-scrollspy="cls: uk-animation-slide-right;delay: 0; repeat: true">
                   <div className="container-fluid">
                     <div className="row p-0">
                       <div className="col-12 lan-field">
@@ -67,7 +67,7 @@ const typeWriter = async () =>{
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-4 col-lg-4 col-md-5 col-sm-11 col-11 single-usable" uk-scrollspy="cls: uk-animation-slide-left;delay: 500; repeat: true">
+                <div className="col-xl-4 col-lg-4 col-md-5 col-sm-11 col-11 css-div single-usable" uk-scrollspy="cls: uk-animation-slide-left;delay: 500; repeat: true">
                   <div className="container-fluid">
                     <div className="row p-0">
                       <div className="col-12 lan-field">
@@ -79,7 +79,7 @@ const typeWriter = async () =>{
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-4 col-lg-4 col-md-5 col-sm-11 col-11 single-usable" uk-scrollspy="cls: uk-animation-slide-left;delay: 700; repeat: true">
+                <div className="col-xl-4 col-lg-4 col-md-5 col-sm-11 col-11 js-div single-usable" uk-scrollspy="cls: uk-animation-slide-left;delay: 500; repeat: true">
                   <div className="container-fluid">
                     <div className="row p-0">
                       <div className="col-12 lan-field">
@@ -91,7 +91,7 @@ const typeWriter = async () =>{
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-4 col-lg-4 col-md-5 col-sm-11 col-11 single-usable" uk-scrollspy="cls: uk-animation-slide-right;delay: 1000; repeat: true">
+                <div className="col-xl-4 col-lg-4 col-md-5 col-sm-11 col-11 bootstrap-div single-usable" uk-scrollspy="cls: uk-animation-slide-right;delay: 500; repeat: true">
                   <div className="container-fluid">
                     <div className="row p-0">
                       <div className="col-12 lan-field">
@@ -103,7 +103,7 @@ const typeWriter = async () =>{
                     </div>
                   </div>
                 </div> 
-                <div className="col-xl-4 col-lg-4 col-md-5 col-sm-11 col-11 single-usable" uk-scrollspy="cls: uk-animation-slide-right;delay: 1200; repeat: true">
+                <div className="col-xl-4 col-lg-4 col-md-5 col-sm-11 col-11 tailwind-div single-usable" uk-scrollspy="cls: uk-animation-slide-right;delay: 500; repeat: true">
                   <div className="container-fluid">
                     <div className="row p-0">
                       <div className="col-12 lan-field">
@@ -115,7 +115,7 @@ const typeWriter = async () =>{
                     </div>
                   </div>
                 </div> 
-                <div className="col-xl-4 col-lg-4 col-md-5 col-sm-11 col-11 single-usable" uk-scrollspy="cls: uk-animation-slide-left;delay: 1500; repeat: true">
+                <div className="col-xl-4 col-lg-4 col-md-5 col-sm-11 col-11 react-div single-usable" uk-scrollspy="cls: uk-animation-slide-left;delay: 500; repeat: true">
                   <div className="container-fluid">
                     <div className="row p-0">
                       <div className="col-12 lan-field">
@@ -127,7 +127,7 @@ const typeWriter = async () =>{
                     </div>
                   </div>
                 </div> 
-                <div className="col-xl-4 col-lg-4 col-md-5 col-sm-11 col-11 single-usable" uk-scrollspy="cls: uk-animation-slide-left;delay: 1800; repeat: true">
+                <div className="col-xl-4 col-lg-4 col-md-5 col-sm-11 col-11 mui-div single-usable" uk-scrollspy="cls: uk-animation-slide-left;delay: 500; repeat: true">
                   <div className="container-fluid">
                     <div className="row p-0">
                       <div className="col-12 lan-field">
@@ -151,7 +151,7 @@ const typeWriter = async () =>{
                     <a href="https://street-bridge-foundation.vercel.app" target="_blank" rel="noreferrer">
                       <div className="row p-0">
                         <div className="col-12">
-                          <img src="/sample.jpg" width="100%" height="100%" alt="Project Preview" className="project-preview" />
+                          <img src="/sbf.png" width="100%" height="100%" alt="Project Preview" className="project-preview" />
                         </div>
                         <div className="col-12">
                           <h5>Street Bridge Foundation</h5>
