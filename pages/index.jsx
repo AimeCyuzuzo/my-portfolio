@@ -4,30 +4,50 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+
+  let i = 0
+  var txt = ""
+  var speed = 1000;
+
+const typeWriter = async () =>{
+    if(i<txt.length){
+      document.getElementById("descContent").innerHTML += txt.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+    }
+
+  }
+  typeWriter(); 
+  
   return (
+  
     <div className="container-fluid">
-      <video id='bg-video' src="/bg-one.mp4" autoPlay muted loop>
-        HTML5 Video is not suppored
-      </video>
       <div className="fixed-back">
+  
         <a href="#" uk-totop uk-scroll>/\</a>
       </div>
       <div id='homeComponent' className={styles.container}>
         <div className="container-fluid text-white">
           <div className="row justify-content-around">
-            <section className='col-5 section headerSectionOne'>
-              <img src="/twocircles.svg" className='twoCircles' alt="" />
+            <section className='col-11 section headerSectionOne'>
+              {/* <img src="/twocircles.svg" className='twoCircles' alt="" /> */}
                 <div className='basicDescr'>
-                  <h1 id='basicDesc'><span style={{fontSize:"20px"}}>I am Aime Cyuzuzo,</span> <br /> <span style={{fontSize:"25px"}}>a web designer and</span> <br /> <span style={{fontSize:"30px"}}>web developer developer.</span></h1>
-                  <p className="borderSorround">Email Me</p>
+                  <p>Hello, I am </p>
+                  <h2>I am Aime Cyuzuzo,</h2>
+                  <h1 id='basicDesc'><span></span> <br /> a web designer and web developer developer.</h1>
+                  {/* <p className="borderSorround">Email Me</p> */}
+                  <p className='text-gray-500' id='descContent'>
+                  I am a web designer and a web developer focusing on using latest tools on market to develop cool-functioning websites. <br /> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo quas totam atque vitae, natus suscipit adipisci reprehenderit, minima at ipsam distinctio ducimus dignissimos blanditiis velit esse a temporibus, cupiditate amet!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, fugiat rerum? Nihil, quod. Sit quas facilis cumque nisi architecto totam id voluptate maiores autem, voluptatum dignissimos maxime odio saepe! Totam?  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ad alias sit nobis suscipit, saepe minus, obcaecati impedit unde deleniti, est ducimus ab autem vero veniam corrupti vitae eligendi. Molestias?
+                  </p>
+
                 <div>
+                  
                 </div>
               </div>
             </section>
-            <section className="col-4 section headerSectionTwo pt-5">
-              <a href="https://app.daily.dev/AimeCyuz" target="_blank" rel="noreferrer"><img src="https://api.daily.dev/devcards/b3122187225c4ea7b725e11cb4846b4d.png?r=ksv" width="400" alt="Dev Card of Cyuzuzo Aime"/></a>
-            </section>
           </div>
+          <a href="https://app.daily.dev/AimeCyuz" target="_blank" rel="noreferrer"><img src="https://api.daily.dev/devcards/b3122187225c4ea7b725e11cb4846b4d.png?r=ksv" width="400" alt="Dev Card of Cyuzuzo Aime"/></a>
+
           <div className="container-fluid pt-5">
             <h2 className='underline decoration-wavy'>What I can use...</h2>
             <div className="container-fluid">

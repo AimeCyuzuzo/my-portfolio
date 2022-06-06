@@ -89,7 +89,7 @@ header a:hover{
   padding: 5%;
 }
 .lan-field{
-  background: rgb(255, 94, 0);
+  background: rgba(255, 94, 0, 0.308);
   width: 100%;
   height: 100px;
   display: flex;
@@ -137,6 +137,9 @@ a{
 .email-form input:focus{
   outline: 3px solid rgb(255, 94, 0);
   box-shadow: 1px 1px 20px rgb(255, 94, 0);
+}
+.text-gray-500{
+  color: gray;
 }
 .email-form textarea:focus{
   outline: 3px solid rgb(255, 94, 0);
