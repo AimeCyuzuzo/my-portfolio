@@ -22,6 +22,7 @@ const typeWriter = async () =>{
   return (
   
     <div className="container-fluid">
+    <Head>Aime Cyuzuzo | Portfolio</Head>
       
       <div id='homeComponent' className={styles.container}>
         <div className="container-fluid text-white">
