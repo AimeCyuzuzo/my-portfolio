@@ -166,10 +166,10 @@ const typeWriter = async () =>{
                 </div>
                 <div className="col-xl-4 col-lg-4 col-md-5 col-sm-11 col-11 single-project">
                   <div className="container-fluid p-0">
-                    <a href="https://street-bridge-foundation.vercel.app" target="_blank" rel="noreferrer">
+                    <a href="https://nak-aimecyuzuzo-todo-app.vercel.app" target="_blank" rel="noreferrer">
                       <div className="row p-0">
                         <div className="col-12">
-                          <img src="/sample.jpg" width="100%" height="100%" alt="Project Preview" className="project-preview" />
+                          <img src="/todohome.jpg" width="100%" height="100%" alt="Project Preview" className="project-preview" />
                         </div>
                         <div className="col-12">
                           <h5>React + Firebase To Do App</h5>
